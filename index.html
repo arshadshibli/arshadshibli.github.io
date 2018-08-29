@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>g6carcare</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>G6 Car Care</title>
+	<meta charset="utf-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/indexmobile.css">
+	<link rel="stylesheet" type="text/css" href="css/indextablet.css"> 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Kosugi+Maru|Libre+Baskerville|Oswald|Sawarabi+Mincho|Slabo+27px" rel="stylesheet">
+
 	<link href="https://fonts.googleapis.com/css?family=Courgette|" rel="stylesheet">
 
 </head>
@@ -15,16 +24,26 @@
    
    <nav>
 	<ul>
-		<li><a href="">Home</a></li>
-		<li><a href="">About Us</a></li>
+		<li class="otherpage"><a class="navitems" href="">Home</a></li>
+		<li class="otherpage"><a class="navitems" href="">About Us</a></li>
 		<!-- <li><a href="">Booking</a></li> -->
-		<li><a href="">Contact Us</a></li>
-		<li><a href=""><i class="fab fa-facebook-messenger"></i></a></li>
-		<li><a href=""><i class="fab fa-facebook"></i></a></li>
-		<li><a href=""><i class="fab fa-instagram"></i></a></li>
+		<li class="otherpage"><a class="navitems" href="">Contact Us</a></li>
+		<li class="social"><a href=""><i class="fab fa-facebook-messenger"></i></a></li>
+		<li class="social"><a href=""><i class="fab fa-facebook"></i></a></li>
+		<li class="social"><a href=""><i class="fab fa-instagram"></i></a></li>
+		<li><i id="menu" class="fas fa-bars"></i>
+			<ul class="hidden">
+				<a href=""><li class="menuitems">Home</li></a>
+		        <a href=""><li class="menuitems">About Us</li></a>
+		   <!-- <li><a href="">Booking</a></li> -->
+		        <a href=""><li class="menuitems">Contact Us</li></a>
+			</ul>
+		</li>
 	</ul>
    </nav>
 	
+  
+
 </header>
 
 
@@ -38,6 +57,7 @@
 
 
 <!-- flexboxes................................................... -->
+
 
 <section>
 		<div class="box image box1a"><img src="img/mw.jpg"></div>
@@ -57,6 +77,7 @@
 		<div class="box text box8a"><h2>Spare Parts</h2></div>
 		<div class="box image box8b"><img src="img/spare.jpg"></div>
 </section>
+
 <div id="devider">
 	
 </div>
@@ -72,13 +93,13 @@
 		<h5><i class="fab fa-whatsapp"></i> 8388003003</h5>
 		<h5><i class="fas fa-phone"></i> 8388002002</h5>
 		<h5><i class="far fa-envelope"></i> g6carcare@gmail.com</h5>
-		<p><i class="far fa-copyright"></i> 2018 G6 Car Care | All Rights Reserved</p>
+		
 	</div>
 	<div id="links" class="fbox">
 		<h3>Follow Us</h3>
-		<h5><a href=""><i class="fab fa-facebook-f"></i> facebook</a></h5>
-		<h5><a href=""><i class="fab fa-instagram"></i> Instagram</a></h5>
-		<h5><a href=""><i class="fab fa-facebook-messenger"></i> Messenger</a></h5>
+		<h5><a class="navitems" href=""><i class="fab fa-facebook-f"></i> facebook</a></h5>
+		<h5><a class="navitems" href=""><i class="fab fa-instagram"></i> Instagram</a></h5>
+		<h5><a class="navitems" href=""><i class="fab fa-facebook-messenger"></i> Messenger</a></h5>
 	</div>
 </footer>
 </body>
