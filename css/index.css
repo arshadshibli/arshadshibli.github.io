@@ -10,8 +10,8 @@ header
 	width: 100%;
 	top: 0px;
 	background-color: white;
-    z-index: 100;
-    border-bottom: 0.4vh solid #ffe6e6;
+	z-index: 100;
+	border-bottom: 0.4vh solid #ffe6e6;
 }
 
 #logo
@@ -95,37 +95,37 @@ main
 	border-bottom: 5vh solid white;
 
 }
- main h1
- {
- 	font-family: 'Courgette', cursive;
- 	margin-top: 0px;
- 	margin-bottom: 0px;
- 	padding-top: 23vh;
- 	align-self: center;
- 	letter-spacing: 4px;
- 	font-size: 6vw;
- 	text-shadow: 1px 1px 5px red,
- 	             -1px -1px 5px red;
- 	           
- 	z-index: 1000;
- 	color:white;
- }
- main h4
- {
- 	font-family: 'Oswald', sans-serif;
- 	margin-top: 1vh;
- 	color: red;
- 	z-index: 1000;
- 	letter-spacing: 5px;
- 	font-size: 2vw;
- 	text-shadow: 1px 1px 2px white,-1px -1px 2px black;
- }
- #mask
- {
- 	background-color: rgba(20,30,40,0.6);
- 	height: 100%;
- 	width: 100%;
- }
+main h1
+{
+	font-family: 'Courgette', cursive;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 23vh;
+	align-self: center;
+	letter-spacing: 4px;
+	font-size: 6vw;
+	text-shadow: 1px 1px 5px red,
+	-1px -1px 5px red;
+	
+	z-index: 1000;
+	color:white;
+}
+main h4
+{
+	font-family: 'Oswald', sans-serif;
+	margin-top: 1vh;
+	color: red;
+	z-index: 1000;
+	letter-spacing: 5px;
+	font-size: 2vw;
+	text-shadow: 1px 1px 2px white,-1px -1px 2px black;
+}
+#mask
+{
+	background-color: rgba(20,30,40,0.6);
+	height: 100%;
+	width: 100%;
+}
 /*Flexbox*/
 section
 {
@@ -166,12 +166,12 @@ section
 /* ................footer........................ */
 footer
 {
-   background-color: #021118;
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   align-items: stretch;
-   align-content: center;
+	background-color: #021118;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: stretch;
+	align-content: center;
 }
 .fbox
 {
@@ -186,14 +186,14 @@ footer
 }
 #address
 {
-padding-bottom: 4vh;
+	padding-bottom: 4vh;
 }
 #address h2
 {
-font-family: 'Courgette', cursive;
-font-size: 3vw;
-margin-bottom: 0;
-margin-top: 5vh;
+	font-family: 'Courgette', cursive;
+	font-size: 3vw;
+	margin-bottom: 0;
+	margin-top: 5vh;
 }
 #address h5
 {
@@ -207,11 +207,11 @@ margin-top: 5vh;
 }
 #contact h3
 {
-font-family: 'Slabo 27px', serif;
+	font-family: 'Slabo 27px', serif;
 
-margin-top: 5vh;
-margin-bottom: 1vh;
-font-size: 2.5vw;
+	margin-top: 5vh;
+	margin-bottom: 1vh;
+	font-size: 2.5vw;
 
 }
 #contact h5
@@ -235,7 +235,7 @@ font-size: 2.5vw;
 }
 #links .navitems
 {
-    
+	
 	text-decoration: none;
 	color: white;
 	text-shadow: none;
