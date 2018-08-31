@@ -1,0 +1,44 @@
+.navitems:hover
+{
+	color: red;
+	text-shadow: 2px 2px 2px #021118;
+	/* background-color: #330000; */
+}
+
+header nav i:hover
+{
+	color: #021118;
+	text-shadow: 1px 1px 2px red;
+	/* background-color: #330000; */
+}
+
+#links .navitems:hover,#links  i:hover
+{
+	color: red;
+}
+
+@media screen and (min-width:600px) and (max-width: 900px)
+{
+	
+
+}
+
+
+@media screen and (max-width:600px )
+{
+
+    .button:hover
+	{
+		background-color: red;
+	}
+	#menu_icon:hover + .hidden,.hidden:hover
+	{
+		display: block;
+	}
+	.hidden li:hover
+	{
+		background-color: red;
+		border: 1px solid #021118;
+	}
+
+}

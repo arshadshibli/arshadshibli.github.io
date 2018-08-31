@@ -5,14 +5,17 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="img/icon.png">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link rel="stylesheet" type="text/css" href="css/indexmobile.css">
-	<link rel="stylesheet" type="text/css" href="css/indextablet.css"> 
+
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Kosugi+Maru|Libre+Baskerville|Oswald|Sawarabi+Mincho|Slabo+27px" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css?family=Courgette|" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/layout.css"> 
+	<link rel="stylesheet" type="text/css" href="css/module.css">
+	<link rel="stylesheet" type="text/css" href="css/state.css">
 
 </head>
 <body>
@@ -23,23 +26,24 @@
    
    <nav>
 	<ul>
-		<li class="otherpage"><a class="navitems" href="">Home</a></li>
-		<li class="otherpage"><a class="navitems" href="">About Us</a></li>
+		<li class="otherpage"><a class="navitems" href="#">Home</a></li>
+		<li class="otherpage"><a class="navitems" href="#aboutus">About Us</a></li>
 		<!-- <li><a href="">Booking</a></li> -->
-		<li class="otherpage"><a class="navitems" href="">Contact Us</a></li>
-		<li class="social"><a href=""><i class="fab fa-facebook-messenger"></i></a></li>
-		<li class="social"><a href=""><i class="fab fa-facebook"></i></a></li>
-		<li class="social"><a href=""><i class="fab fa-instagram"></i></a></li>
-		<li><i id="menu" class="fas fa-bars"></i>
-			<ul class="hidden">
-				<li class="menuitems"><a href=""><div class="button">Home</div></a></li>
-		        <li class="menuitems"><a href=""><div class="button">About Us</div></a></li>
-		   <!-- <li><a href="">Booking</a></li> -->
-		        <li class="menuitems"><a href=""><div class="button">Contact Us</div></a></li>
-			</ul>
-		</li>
+		<li class="otherpage"><a class="navitems" href="#contact">Contact Us</a></li>
+		<li class="social"><a href="https://m.me/210502286394147" target="_blank"><i class="fab fa-facebook-messenger"></i></a></li>
+		<li class="social"><a href="https://www.facebook.com/G6-Car-Care-210502286394147/"  target="_blank"><i class="fab fa-facebook"></i></a></li>
+		<li class="social"><a href="https://www.facebook.com/G6-Car-Care-210502286394147/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 	</ul>
    </nav>
+   <div id="menu">
+   <i id="menu_icon" class="fas fa-bars"></i>
+			<ul class="hidden">
+				<li class="menuitems"><a href="#""><div class="button">Home</div></a></li>
+		        <li class="menuitems"><a href="#aboutus"><div class="button">About Us</div></a></li>
+		   <!-- <li><a href="">Booking</a></li> -->
+		        <li class="menuitems"><a href="#contact"><div class="button">Contact Us</div></a></li>
+			</ul>
+	</div>
 	
   
 
@@ -53,6 +57,11 @@
     </div>
 </main>
 
+<article id="aboutus">
+	<h3>About Us</h3>
+	<h5>All in one car care shoap situated on Manjeri road  Thirurkad, With a group of well experianced technicians and advanced technologies we offer the best solutions for all types of automobile troubles. </h5>
+</article>
+
 
 
 <!-- flexboxes................................................... -->
@@ -60,20 +69,20 @@
 
 <section>
 		<div class="box image box1a"><img src="img/mw.jpg" alt="loading" ></div>
-		<div class="box text box1b"><h2>Mechanical Work</h2></div>
-		<div class="box text box2a"><h2>Bodyshop With Paintbooth(OBSS)</h2></div>
+		<div class="box text box1b"><h2>Mechanical Work</h2><p>Today's technologically advanced engines with proper maintenance will rarely experience failure. However, in the rare instance that troubles occur our experienced technicians ensure the quality of your repairs.</p></div>
+		<div class="box text box2a"><h2>Bodyshop & Paintbooth</h2><p>We are offering a quality approved Bodyshop with Paint Booth Equipments where we use latest OBSS technology specially designed for painting the vehicles in automobile industry</p></div>
 		<div class="box image box2b"><img src="img/paint.jpg" alt="loading"></div>
 		<div class="box image box3a"><img src="img/cwp.jpg" alt="loading"></div>
-		<div class="box text box3b"><h2>Water Service & Polishing</h2></div>
-		<div class="box text box4a"><h2>Scanning & Diagnosis</h2></div>
+		<div class="box text box3b"><h2>Water Service & Polishing</h2><p>Mechanized car cleaning concept where cars are getting pampered by the latest equipments including high pressure cleaning machines, spray injection and extraction machines, high powered vacuum cleaners and steam cleaners</p></div>
+		<div class="box text box4a"><h2>Scanning & Diagnosis</h2><p>The electrical system in vehicle is precisely controlled by the computer control system. We have modern technology and expertise to diagnose, service and repair these systems with precision and accuracy.</p></div>
 		<div class="box image box4b"><img src="img/scan.jpg" alt="loading"></div>
 		<div class="box image box5a"><img src="img/wa.jpg" alt="loading"></div>
-		<div class="box text box5b"><h2>Wheel Alignment</h2></div>
-		<div class="box text box6a"><h2>A/C & Electrical Work</h2></div>
+		<div class="box text box5b"><h2>Wheel Alignment</h2><p>We ensure proper Wheel alignment which can help your tires perform properly,help them last longer, Improve handling and keep your vehicle from pulling in one direction or vibrating strangely on the road.</p></div>
+		<div class="box text box6a"><h2>A/C & Electrical Work</h2><p>We do all repair works of car's electrical system consists of the A/C,battery, starter etc...</p></div>
 		<div class="box image box6b"><img src="img/el.jpg" alt="loading"></div>
 		<div class="box image box7a"><img src="img/aw.jpg" alt="loading"></div>
-		<div class="box text box7b"><h2>Tyre & Alloywheels</h2></div>
-		<div class="box text box8a"><h2>Spare Parts</h2></div>
+		<div class="box text box7b"><h2>Tyre & Alloywheels</h2><p>Good collection of tyres and Alloy wheels from varieties of brands</p></div>
+		<div class="box text box8a"><h2>Spare Parts</h2><p>We offer wide range of spare parts of all reputed brands and companies at genuine price</p></div>
 		<div class="box image box8b"><img src="img/spare.jpg" alt="loading"></div>
 </section>
 
@@ -96,9 +105,9 @@
 	</div>
 	<div id="links" class="fbox">
 		<h3>Follow Us</h3>
-		<h5><a class="navitems" href=""><i class="fab fa-facebook-f"></i> facebook</a></h5>
-		<h5><a class="navitems" href=""><i class="fab fa-instagram"></i> Instagram</a></h5>
-		<h5><a class="navitems" href=""><i class="fab fa-facebook-messenger"></i> Messenger</a></h5>
+		<h5><a class="navitems" href="https://www.facebook.com/G6-Car-Care-210502286394147/"target="_blank"><i class="fab fa-facebook-f"></i> facebook</a></h5>
+		<h5><a class="navitems" href="https://www.facebook.com/G6-Car-Care-210502286394147/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></h5>
+		<h5><a class="navitems" href="https://m.me/210502286394147" target="_blank"><i class="fab fa-facebook-messenger"></i> Messenger</a></h5>
 	</div>
 </footer>
 </body>
